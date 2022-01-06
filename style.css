@@ -1,0 +1,187 @@
+
+/* first section start */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+
+
+#text{
+     color: blueviolet;
+     font-size: 50px;
+     
+    
+}
+#text-1{
+     margin-bottom: 10px;
+
+}
+
+body{
+     font-family: 'Poppins', sans-serif;
+}
+.first , section{
+    
+     display: flex;
+     text-transform: capitalize;
+     background-color: rgb(255, 231, 234);
+     
+     
+     
+}
+.half-width-first-text{
+    
+     width: 50%;
+     padding-left: 5%;
+     padding-top: 5%;
+}
+
+.half-width-first-img{
+     padding-left: 20%;
+     margin-top: 10px;    
+}
+h1{
+     
+    border-left: 3px solid rgb(255, 217, 0);
+    padding: 18px;
+
+}
+ p{
+     margin-top: 80px;
+     margin-bottom: 50px;
+     line-height: 2;
+}
+.btn{
+    background-image: linear-gradient(orange,tomato);
+    border-radius: 35px;
+     padding: 10px 28px ;
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     line-height: 1.5;
+     font-weight: 500;
+     text-transform: capitalize;
+     font-size: 16px;
+     cursor: pointer;
+}
+.btn:hover {
+    color: rgb(88, 37, 37);
+    background-color: lightskyblue;
+}
+
+/* first section end */
+
+/* second section start */
+.second, section{
+     
+     
+     height: 100vh;
+}
+.half-width-second, .half-width-text-second{
+    
+     width: 50%;
+     padding-left: 5%;
+      padding-right: 5%;  
+}
+
+.half-width-second img{
+
+     padding-left: 10%;    
+}
+.second{
+      height: 100%;
+}
+
+/* second section end */
+#text-worldcup{
+     width: 100%;
+     color: purple;
+     font-size: 50px;
+     text-align: center;
+     background-color: rgb(255, 231, 234);
+     padding: 5%;  
+}
+.world-cup{
+     display: flex;
+     height: 100%;
+}
+
+.half-width{
+     width: 33.3%;
+     padding: 20px;
+     margin: 20px;
+     border: 2px solid gray;
+     box-shadow: 10px 5px 1px grey;
+     border-radius: 20px;
+}
+#contact{
+     background-color: rgb(255, 231, 234) ;
+     text-align: center;
+     font-size: 30px;
+     padding-top: 30px;
+     height: 100%;
+}
+
+form {
+      max-width:420px; 
+      margin:50px auto;
+ }
+
+.feedback-input {
+    color:white;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+
+textarea {
+    height: 100px;
+    line-height: 100%;
+    resize:vertical;
+}
+
+[type="submit"] {
+  
+    width: 100%;
+    background:#CC6666;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:-4px;
+    font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
+
+
+
+.fotter{
+     text-align: center;
+     font-size: 30px;
+     background-color: black;
+     color: wheat;
+     height: 100%;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     line-height: 2;
+     padding: 15 px;
+
+}
+#fotter{
+     color: red;
+}
